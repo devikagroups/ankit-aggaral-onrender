@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Ankit Aggarwal | Managing Director, Devika Group</title>
+  <meta name="description" content="Ankit Aggarwal, Managing Director of Devika Group, represents the next generation of a Delhi real-estate legacy founded in 1954. Explore his leadership, projects, corporate record and vision.">
+  <meta name="author" content="Devika Group">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://ankitaggarwal.onrender.com/">
+  <link rel="icon" type="image/png" href="https://devikagroup.com/images/dgfav.png">
+  <link rel="apple-touch-icon" href="https://devikagroup.com/images/dgfav.png">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Ankit Aggarwal | Managing Director, Devika Group">
+  <meta property="og:description" content="Three generations. Seven decades. One continuing vision for modern real estate.">
+  <meta property="og:image" content="https://ankitaggarwal.vercel.app/assets/real.png">
+  <meta property="og:url" content="https://ankitaggarwal.vercel.app/">
+  <meta property="og:site_name" content="Devika Group">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ankit Aggarwal | Managing Director, Devika Group">
+  <meta name="twitter:description" content="Managing Director of Devika Group and part of its next generation of leadership.">
+  <meta name="twitter:image" content="https://ankitaggarwal.vercel.app/assets/real.png">
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Ankit Aggarwal",
+    "jobTitle":"Managing Director",
+    "url":"https://ankitaggarwal.vercel.app/",
+    "image":"https://ankitaggarwal.vercel.app/assets/real.png",
+    "worksFor":{
+      "@type":"Organization",
+      "name":"Devika Group",
+      "legalName":"Devika Promoters and Builders Private Limited",
+      "foundingDate":"1954"
+    },
+    "alumniOf":{
+      "@type":"EducationalOrganization",
+      "name":"Don Bosco School"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --navy:#0B1020;
+      --navy-2:#11182C;
+      --cream:#F5F0E8;
+      --white:#FFFDF9;
+      --gold:#C7A66A;
+      --gold-light:#E7D6B3;
+      --muted:#9CA4B8;
+      --text:#202536;
+      --line:rgba(255,255,255,.12);
+      --line-dark:rgba(11,16,32,.12);
+      --serif:"Playfair Display", Georgia, serif;
+      --sans:"DM Sans", Arial, sans-serif;
+      --max:1240px;
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{
+      font-family:var(--sans);
+      background:var(--cream);
+      color:var(--text);
+      line-height:1.65;
+      -webkit-font-smoothing:antialiased;
+      overflow-x:hidden;
+    }
+    img{max-width:100%;display:block}
+    a{color:inherit}
+    ::selection{background:var(--gold);color:var(--navy)}
+
+    .container{width:min(var(--max),calc(100% - 64px));margin:auto}
+
+    /* NAV */
+    .nav{
+      position:fixed;
+      inset:0 0 auto;
+      z-index:100;
+      transition:.35s ease;
+      background:rgba(11,16,32,.78);
+      backdrop-filter:blur(16px);
+      border-bottom:1px solid var(--line);
+    }
+    .nav.scrolled{background:rgba(11,16,32,.96)}
+    .nav-inner{
+      height:82px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:30px;
+    }
+    .brand{display:flex;align-items:center;gap:14px;text-decoration:none}
+    .brand img{width:104px;height:auto;max-height:44px;object-fit:contain;filter:brightness(0) invert(1)}
+    .brand-copy{border-left:1px solid var(--line);padding-left:14px}
+    .brand-copy strong{display:block;color:#fff;font-size:13px;letter-spacing:.04em}
+    .brand-copy span{display:block;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.18em;margin-top:2px}
+    .nav-links{display:flex;gap:5px;list-style:none}
+    .nav-links a{
+      color:#DDE1EA;
+      text-decoration:none;
+      font-size:11px;
+      letter-spacing:.1em;
+      text-transform:uppercase;
+      padding:10px 14px;
+      border-radius:100px;
+      transition:.2s;
+    }
+    .nav-links a:hover,.nav-links a.active{background:#fff;color:var(--navy)}
+    .menu{display:none;background:none;border:0;color:#fff;font-size:25px}
+
+    /* HERO */
+    .hero{
+      min-height:100vh;
+      background:
+        radial-gradient(circle at 78% 20%,rgba(199,166,106,.22),transparent 28%),
+        linear-gradient(135deg,#080D1B 0%,#10172B 55%,#0B1020 100%);
+      color:#fff;
+      position:relative;
+      overflow:hidden;
+      display:flex;
+      align-items:center;
+      padding:140px 0 90px;
+    }
+    .hero:before{
+      content:"";
+      position:absolute;
+      width:620px;height:620px;
+      border:1px solid rgba(199,166,106,.18);
+      border-radius:50%;
+      right:-250px;top:-150px;
+    }
+    .hero:after{
+      content:"";
+      position:absolute;
+      width:420px;height:420px;
+      border:1px solid rgba(255,255,255,.06);
+      border-radius:50%;
+      right:-140px;top:-50px;
+    }
+    .hero-grid{
+      position:relative;
+      z-index:2;
+      display:grid;
+      grid-template-columns:1.05fr .95fr;
+      gap:80px;
+      align-items:center;
+    }
+    .eyebrow{
+      display:flex;align-items:center;gap:12px;
+      color:var(--gold-light);
+      font-size:11px;
+      text-transform:uppercase;
+      letter-spacing:.22em;
+      margin-bottom:28px;
+    }
+    .eyebrow:before{content:"";width:42px;height:1px;background:var(--gold)}
+    .hero h1{
+      font-family:var(--serif);
+      font-size:clamp(4rem,8vw,7.5rem);
+      line-height:.87;
+      font-weight:400;
+      letter-spacing:-.045em;
+      margin-bottom:32px;
+    }
+    .hero h1 span{display:block}
+    .hero h1 em{color:var(--gold);font-style:italic}
+    .hero-role{
+      display:flex;align-items:center;gap:12px;
+      font-size:13px;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:#E4E7EF;
+      margin-bottom:24px;
+    }
+    .hero-role i{width:5px;height:5px;background:var(--gold);border-radius:50%}
+    .hero-intro{
+      color:#B9C0D0;
+      max-width:590px;
+      font-size:17px;
+      line-height:1.8;
+      margin-bottom:38px;
+    }
+    .hero-metrics{display:flex;gap:0;flex-wrap:wrap}
+    .metric{
+      padding:0 30px;
+      border-left:1px solid var(--line);
+    }
+    .metric:first-child{padding-left:0;border-left:0}
+    .metric strong{display:block;font-family:var(--serif);font-size:30px;font-weight:400;color:#fff}
+    .metric span{font-size:9px;text-transform:uppercase;letter-spacing:.13em;color:var(--muted)}
+    .hero-photo{position:relative;max-width:490px;margin-left:auto}
+    .photo-wrap{
+      position:relative;
+      padding:10px;
+      background:linear-gradient(145deg,rgba(199,166,106,.8),rgba(255,255,255,.08));
+    }
+    .photo-wrap img{width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(.82)}
+    .photo-tag{
+      position:absolute;
+      right:-24px;
+      bottom:36px;
+      width:150px;
+      height:150px;
+      border:1px solid rgba(199,166,106,.7);
+      border-radius:50%;
+      background:rgba(11,16,32,.9);
+      display:flex;align-items:center;justify-content:center;
+      text-align:center;
+      color:var(--gold-light);
+      font-size:9px;
+      line-height:1.6;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      padding:24px;
+    }
+    .scroll-note{
+      position:absolute;bottom:34px;left:32px;
+      color:#737D94;font-size:9px;letter-spacing:.2em;text-transform:uppercase;
+      writing-mode:vertical-rl;
+    }
+
+    /* SECTION */
+    section{padding:125px 0}
+    .section-head{margin-bottom:60px}
+    .section-kicker{
+      font-size:10px;text-transform:uppercase;letter-spacing:.22em;
+      color:#9B7A3E;margin-bottom:14px;
+    }
+    .section-title{
+      font-family:var(--serif);
+      font-size:clamp(2.5rem,5vw,4.7rem);
+      font-weight:400;
+      line-height:1;
+      letter-spacing:-.035em;
+      max-width:820px;
+    }
+    .section-title em{font-style:italic;color:#9B7A3E}
+    .section-sub{max-width:650px;color:#687084;font-size:16px;margin-top:20px}
+
+    /* PROFILE */
+    .profile{background:var(--white)}
+    .profile-grid{display:grid;grid-template-columns:.7fr 1.3fr;gap:100px}
+    .profile-index{
+      font-family:var(--serif);
+      font-size:160px;
+      line-height:.8;
+      color:#E9E1D4;
+      position:sticky;top:130px;
+    }
+    .profile-copy p{font-size:17px;color:#596174;margin-bottom:22px;max-width:720px}
+    .facts{
+      display:grid;grid-template-columns:1fr 1fr;
+      border-top:1px solid var(--line-dark);
+      margin-top:42px;
+    }
+    .fact{padding:22px 0;border-bottom:1px solid var(--line-dark)}
+    .fact:nth-child(odd){padding-right:30px;border-right:1px solid var(--line-dark)}
+    .fact:nth-child(even){padding-left:30px}
+    .fact label{display:block;font-size:9px;text-transform:uppercase;letter-spacing:.16em;color:#9B7A3E;margin-bottom:7px}
+    .fact strong{font-size:14px;font-weight:600;color:var(--text)}
+
+    /* TIMELINE */
+    .legacy{background:var(--navy);color:#fff}
+    .legacy .section-kicker{color:var(--gold-light)}
+    .legacy .section-title{color:#fff}
+    .legacy .section-sub{color:#8F98AB}
+    .timeline{position:relative;margin-top:80px}
+    .timeline:before{
+      content:"";position:absolute;left:116px;top:0;bottom:0;width:1px;background:var(--line)
+    }
+    .timeline-item{display:grid;grid-template-columns:170px 1fr;gap:70px;padding:0 0 58px;position:relative}
+    .timeline-year{font-family:var(--serif);font-size:25px;color:var(--gold-light);text-align:right;padding-top:2px}
+    .timeline-dot{
+      position:absolute;left:110px;top:8px;width:13px;height:13px;
+      background:var(--navy);border:2px solid var(--gold);border-radius:50%;
+      transform:translateX(-50%);
+    }
+    .timeline-content{padding-left:20px}
+    .timeline-content h3{font-family:var(--serif);font-size:31px;font-weight:400;margin-bottom:9px}
+    .timeline-content p{color:#8F98AB;max-width:700px;font-size:15px}
+
+    /* NUMBERS */
+    .numbers{background:#ECE5D9}
+    .numbers-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#CFC5B5;margin-top:55px}
+    .number-card{background:#ECE5D9;padding:38px 28px;min-height:190px}
+    .number-card strong{font-family:var(--serif);font-size:48px;font-weight:400;display:block;color:var(--navy)}
+    .number-card span{font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:#77705F}
+    .number-card p{font-size:13px;color:#666152;margin-top:14px}
+
+    /* PROJECTS */
+    .projects{background:var(--white)}
+    .project-list{display:grid;grid-template-columns:1.1fr .9fr;gap:20px}
+    .project{
+      position:relative;
+      min-height:420px;
+      background:var(--navy);
+      color:#fff;
+      overflow:hidden;
+      padding:38px;
+      display:flex;
+      flex-direction:column;
+      justify-content:flex-end;
+    }
+    .project:before{
+      content:"";
+      position:absolute;inset:0;
+      background:linear-gradient(135deg,rgba(199,166,106,.25),transparent 45%);
+    }
+    .project:nth-child(2){background:#202B44}
+    .project:nth-child(3){background:#5D4D3B}
+    .project:nth-child(4){background:#142F31}
+    .project .project-no{position:absolute;top:30px;right:30px;font-size:10px;letter-spacing:.18em;color:#C9D0DD}
+    .project > *{position:relative;z-index:2}
+    .project h3{font-family:var(--serif);font-size:38px;font-weight:400;line-height:1.05;margin-bottom:8px}
+    .project .location{font-size:10px;text-transform:uppercase;letter-spacing:.17em;color:var(--gold-light);margin-bottom:18px}
+    .project p{font-size:14px;color:#C6CBD6;max-width:560px}
+    .project .project-fact{margin-top:22px;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#fff}
+    .project:nth-child(1){grid-row:span 2}
+    .project:nth-child(1) h3{font-size:52px}
+
+    /* DIRECTORSHIPS */
+    .corporate{background:var(--cream)}
+    .corp-layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:70px}
+    .corp-stat{background:var(--navy);color:#fff;padding:45px;align-self:start}
+    .corp-stat strong{font-family:var(--serif);font-size:72px;font-weight:400;color:var(--gold-light);display:block;line-height:1}
+    .corp-stat span{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#9FA8BB}
+    .corp-stat p{margin-top:25px;color:#9FA8BB;font-size:14px}
+    .company-table{width:100%;border-collapse:collapse}
+    .company-table th,.company-table td{text-align:left;padding:15px 12px;border-bottom:1px solid var(--line-dark);font-size:12px}
+    .company-table th{font-size:9px;text-transform:uppercase;letter-spacing:.15em;color:#8C806B}
+    .company-table td:last-child{font-size:10px;color:#777}
+
+    /* VISION */
+    .vision{background:var(--navy);color:#fff}
+    .vision-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);margin-top:60px}
+    .vision-card{padding:36px 30px;min-height:220px;background:var(--navy)}
+    .vision-card .num{font-size:10px;color:var(--gold);letter-spacing:.16em;margin-bottom:28px}
+    .vision-card h3{font-family:var(--serif);font-size:25px;font-weight:400;margin-bottom:12px}
+    .vision-card p{color:#929AAC;font-size:14px}
+    .quote{
+      max-width:930px;
+      margin:80px auto 0;
+      text-align:center;
+      font-family:var(--serif);
+      font-size:clamp(2rem,4vw,3.4rem);
+      line-height:1.2;
+      color:#F2EEE6;
+    }
+    .quote em{color:var(--gold-light)}
+    .quote-by{display:block;margin-top:22px;font-family:var(--sans);font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:#7E879B}
+
+    /* FOOTER */
+    footer{background:#070B15;color:#fff;padding:65px 0 30px}
+    .footer-top{display:flex;justify-content:space-between;gap:50px;padding-bottom:50px;border-bottom:1px solid var(--line)}
+    .footer-brand{font-family:var(--serif);font-size:35px}
+    .footer-brand span{color:var(--gold)}
+    .footer-info{font-size:12px;color:#8C94A6;line-height:1.9}
+    .footer-links{display:flex;gap:25px;flex-wrap:wrap}
+    .footer-links a{font-size:10px;text-transform:uppercase;letter-spacing:.14em;color:#B8BFCC;text-decoration:none}
+    .footer-bottom{display:flex;justify-content:space-between;gap:20px;padding-top:25px;color:#555E70;font-size:9px;text-transform:uppercase;letter-spacing:.13em}
+
+    @media(max-width:950px){
+      .nav-links{display:none}
+      .menu{display:block}
+      .hero-grid,.profile-grid,.corp-layout{grid-template-columns:1fr;gap:55px}
+      .hero-photo{margin:auto}
+      .profile-index{display:none}
+      .numbers-grid{grid-template-columns:1fr 1fr}
+      .project-list{grid-template-columns:1fr}
+      .project:nth-child(1){grid-row:auto}
+      .vision-grid{grid-template-columns:1fr 1fr}
+      .timeline:before{left:89px}
+      .timeline-item{grid-template-columns:120px 1fr;gap:35px}
+      .timeline-dot{left:83px}
+    }
+    @media(max-width:600px){
+      .container{width:min(var(--max),calc(100% - 40px))}
+      .nav-inner{height:70px}
+      .brand img{width:86px}
+      .brand-copy{display:none}
+      .hero{padding-top:115px}
+      .hero h1{font-size:clamp(4rem,20vw,6rem)}
+      .hero-metrics{gap:20px}
+      .metric{padding:0 18px}
+      .metric:first-child{padding-left:0}
+      section{padding:85px 0}
+      .facts{grid-template-columns:1fr}
+      .fact:nth-child(odd){padding-right:0;border-right:0}
+      .fact:nth-child(even){padding-left:0}
+      .numbers-grid,.vision-grid{grid-template-columns:1fr}
+      .project{min-height:350px;padding:28px}
+      .project:nth-child(1) h3{font-size:40px}
+      .timeline:before{left:5px}
+      .timeline-item{grid-template-columns:1fr;gap:12px;padding-left:30px}
+      .timeline-year{text-align:left}
+      .timeline-dot{left:0}
+      .timeline-content{padding-left:0}
+      .company-table{min-width:650px}
+      .corp-stat strong{font-size:60px}
+      .footer-top,.footer-bottom{flex-direction:column}
+      .scroll-note{display:none}
+      .photo-tag{right:-5px;bottom:20px;width:110px;height:110px;font-size:7px}
+    }
+  </style>
+  <meta name="google-site-verification" content="EpvU1NA5W35_1fnuEsZ4lFVIF9JR2N2c0_zysGUJwb8" />
+</head>
+
+<body>
+
+<header class="nav" id="nav">
+  <div class="container nav-inner">
+    <a class="brand" href="#top" aria-label="Ankit Aggarwal home">
+      <img src="https://devikagroup.com/images/27.png" alt="Devika Group">
+      <div class="brand-copy">
+        <strong>Ankit Aggarwal</strong>
+        <span>Managing Director · Devika Group</span>
+      </div>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#legacy">Legacy</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#corporate">Record</a></li>
+        <li><a href="#vision">Vision</a></li>
+      </ul>
+    </nav>
+    <button class="menu" id="menu" aria-label="Open navigation">☰</button>
+  </div>
+</header>
+
+<main>
+
+<section class="hero" id="top">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow">Third-generation leadership · Devika Group</div>
+
+      <h1>
+        <span>Ankit</span>
+        <span><em>Aggarwal</em></span>
+      </h1>
+
+      <div class="hero-role">
+        Managing Director <i></i> Devika Group
+      </div>
+
+      <p class="hero-intro">
+        A new chapter in a Delhi real-estate legacy founded in 1954 — shaped by disciplined execution,
+        strategic expansion and an evolving approach to commercial, retail, hospitality and mixed-use development.
+      </p>
+
+      <div class="hero-metrics">
+        <div class="metric">
+          <strong>1954</strong>
+          <span>Group Founded</span>
+        </div>
+        <div class="metric">
+          <strong>2007</strong>
+          <span>Leadership Since</span>
+        </div>
+        <div class="metric">
+          <strong>70+</strong>
+          <span>Years of Legacy</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-photo">
+      <div class="photo-wrap">
+        <img src="https://ankitaggarwal.vercel.app/assets/real.png"
+             alt="Ankit Aggarwal, Managing Director of Devika Group"
+             loading="eager">
+      </div>
+      <div class="photo-tag">Leadership<br>Legacy<br>Direction<br>—<br>Est. 1954</div>
+    </div>
+  </div>
+  <div class="scroll-note">Scroll to explore</div>
+</section>
+
+<section class="profile" id="profile">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-kicker">01 / The Profile</div>
+      <h2 class="section-title">The person behind the <em>next chapter.</em></h2>
+    </div>
+
+    <div class="profile-grid">
+      <div class="profile-index">01</div>
+
+      <div class="profile-copy">
+        <p>
+          Ankit Aggarwal is the Managing Director of Devika Group, stepping into active leadership in 2007
+          from the group's corporate headquarters at Devika Tower 6, Nehru Place, New Delhi.
+        </p>
+        <p>
+          He represents the next generation of a real-estate house whose roots reach back to 1954.
+          His remit spans strategic planning, project execution and expansion across commercial, retail,
+          hospitality and mixed-use development.
+        </p>
+        <p>
+          Under his leadership, the group has continued strengthening its footing in established markets
+          while opening new ground in emerging corridors, balancing decades of experience with a contemporary
+          approach to urban planning.
+        </p>
+
+        <div class="facts">
+          <div class="fact">
+            <label>Role</label>
+            <strong>Managing Director, Devika Group</strong>
+          </div>
+          <div class="fact">
+            <label>Experience</label>
+            <strong>~18–20 years in real estate</strong>
+          </div>
+          <div class="fact">
+            <label>Headquarters</label>
+            <strong>Devika Tower 6, Nehru Place, New Delhi</strong>
+          </div>
+          <div class="fact">
+            <label>Education</label>
+            <strong>Don Bosco School</strong>
+          </div>
+          <div class="fact">
+            <label>Core sectors</label>
+            <strong>Commercial · Retail · Hospitality · Mixed-Use</strong>
+          </div>
+          <div class="fact">
+            <label>DIN</label>
+            <strong>00385982</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="legacy" id="legacy">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-kicker">02 / The Legacy</div>
+      <h2 class="section-title">A timeline measured in <em>generations.</em></h2>
+      <p class="section-sub">
+        From the founding of Devika Builders to the group's current expansion, the story is one of continuity
+        with a changing urban landscape.
+      </p>
+    </div>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">1954</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>The Foundation</h3>
+          <p>
+            Shri D.R. Gupta establishes the foundation of the Devika real-estate legacy in Delhi,
+            beginning a practice that would develop over the following seven decades.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">2007</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Next-Generation Leadership</h3>
+          <p>
+            Ankit Aggarwal takes up active leadership from the Nehru Place headquarters and joins the board
+            of Devika Promoters and Builders Private Limited on 22 May 2007.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">Ongoing</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Modern Expansion</h3>
+          <p>
+            The group evolves toward organized commercial space, high-street retail, hospitality and mixed-use
+            projects designed around changing urban requirements.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-year">Next</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Emerging Corridors</h3>
+          <p>
+            Expansion continues into Goa and Jammu &amp; Kashmir while retaining the founding emphasis on
+            quality, trust and customer-centric execution.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="numbers">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-kicker">03 / By The Numbers</div>
+      <h2 class="section-title">A legacy that leaves a <em>measurable footprint.</em></h2>
+    </div>
+
+    <div class="numbers-grid">
+      <div class="number-card">
+        <strong>6.5M+</strong>
+        <span>Sq. Ft. Developed</span>
+        <p>Development footprint across the group's portfolio.</p>
+      </div>
+      <div class="number-card">
+        <strong>46+</strong>
+        <span>Projects Delivered</span>
+        <p>A portfolio built across multiple real-estate formats.</p>
+      </div>
+      <div class="number-card">
+        <strong>13.4K+</strong>
+        <span>Customers Served</span>
+        <p>A long-standing customer base across the group's developments.</p>
+      </div>
+      <div class="number-card">
+        <strong>70+</strong>
+        <span>Years in Business</span>
+        <p>A seven-decade presence rooted in Delhi real estate.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="projects" id="projects">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-kicker">04 / Selected Developments</div>
+      <h2 class="section-title">Where the <em>strategy</em> becomes real.</h2>
+      <p class="section-sub">
+        Selected developments associated with the group's current direction across commercial, retail,
+        hospitality and mixed-use formats.
+      </p>
+    </div>
+
+    <div class="project-list">
+      <article class="project">
+        <span class="project-no">01</span>
+        <div>
+          <div class="location">Sadar Bazar · Old Delhi</div>
+          <h3>Devika<br>Sadar Bazar</h3>
+          <p>
+            An organized commercial redevelopment inside one of Asia's oldest and busiest marketplaces,
+            spanning roughly 4.5 acres with over 10 lakh sq. ft. of built-up retail, office and multi-storey parking space.
+          </p>
+          <div class="project-fact">4–6 lakh estimated daily footfall</div>
+        </div>
+      </article>
+
+      <article class="project">
+        <span class="project-no">02</span>
+        <div>
+          <div class="location">Sector 110 · Noida</div>
+          <h3>Devika<br>Vibe 110</h3>
+          <p>
+            A high-street retail and lifestyle hub of roughly 75,000 sq. ft. on Main Dadri Road.
+          </p>
+          <div class="project-fact">100+ shops · 40+ brands</div>
+        </div>
+      </article>
+
+      <article class="project">
+        <span class="project-no">03</span>
+        <div>
+          <div class="location">Near Dabolim Airport · Goa</div>
+          <h3>Devika<br>Aerocidade</h3>
+          <p>
+            An Aerocity-inspired township across roughly 25 freehold acres, combining residential plots,
+            luxury villas and managed studios with a planned hotel.
+          </p>
+          <div class="project-fact">~25 acres · hospitality anchor</div>
+        </div>
+      </article>
+
+      <article class="project">
+        <span class="project-no">04</span>
+        <div>
+          <div class="location">Emerging Market</div>
+          <h3>Future<br>Corridors</h3>
+          <p>
+            A measured approach to expansion into emerging destinations, including Jammu &amp; Kashmir.
+          </p>
+          <div class="project-fact">Measured expansion · long-term view</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="corporate" id="corporate">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-kicker">05 / Corporate Record</div>
+      <h2 class="section-title">Leadership, <em>on record.</em></h2>
+    </div>
+
+    <div class="corp-layout">
+      <div class="corp-stat">
+        <strong>15</strong>
+        <span>Active Directorships</span>
+        <p>
+          Ankit Aggarwal is recorded as an active director across 15 registered Indian companies,
+          spanning Devika entities alongside allied hospitality, infrastructure and investment ventures.
+        </p>
+      </div>
+
+      <div style="overflow:auto">
+        <table class="company-table">
+          <thead>
+            <tr>
+              <th>Entity</th>
+              <th>Role</th>
+              <th>Director Since</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Vinayak Vanijya Limited</td><td>Director</td><td>30-09-2006</td></tr>
+            <tr><td>Shomit Finance Limited</td><td>Director</td><td>30-09-2006</td></tr>
+            <tr><td>Devika Promoters and Builders Private Limited</td><td>Director</td><td>22-05-2007</td></tr>
+            <tr><td>Devika Gold Homz Private Limited</td><td>Director</td><td>26-11-2007</td></tr>
+            <tr><td>Devika Universal Lands Private Limited</td><td>Director</td><td>03-01-2014</td></tr>
+            <tr><td>Devika Universal Lands &amp; Building Private Limited</td><td>Director</td><td>05-03-2014</td></tr>
+            <tr><td>Ultrascend Infratech Private Limited</td><td>Director</td><td>28-01-2017</td></tr>
+            <tr><td>Imagitech Infrastructure Private Limited</td><td>Director</td><td>29-03-2017</td></tr>
+            <tr><td>Vipshel Infotech Private Limited</td><td>Director</td><td>08-01-2018</td></tr>
+            <tr><td>Rosegold Developers Private Limited</td><td>Director</td><td>15-05-2018</td></tr>
+            <tr><td>Pinkgold Developers Private Limited</td><td>Director</td><td>15-05-2018</td></tr>
+            <tr><td>Dailygreens Farm Fresh India Private Limited</td><td>Director</td><td>10-05-2019</td></tr>
+            <tr><td>Sarvananda Hospitality Private Limited</td><td>Director</td><td>11-10-2022</td></tr>
+            <tr><td>Trinity Suites Private Limited</td><td>Director</td><td>10-05-2023</td></tr>
+            <tr><td>Greencaps Investment Private Limited</td><td>Director</td><td>26-06-2023</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="vision" id="vision">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-kicker">06 / The Vision</div>
+      <h2 class="section-title">The next decade is about <em>how places perform.</em></h2>
+      <p class="section-sub">
+        A strategic approach centred on organized development, changing urban lifestyles,
+        emerging corridors and disciplined execution.
+      </p>
+    </div>
+
+    <div class="vision-grid">
+      <div class="vision-card">
+        <div class="num">01</div>
+        <h3>Organized Retail</h3>
+        <p>Structured commercial and high-street retail development in place of unstructured trade.</p>
+      </div>
+      <div class="vision-card">
+        <div class="num">02</div>
+        <h3>Mixed-Use Planning</h3>
+        <p>Projects designed around evolving urban lifestyles, combining live, work and leisure.</p>
+      </div>
+      <div class="vision-card">
+        <div class="num">03</div>
+        <h3>New Corridors</h3>
+        <p>Measured expansion into emerging growth destinations across India.</p>
+      </div>
+      <div class="vision-card">
+        <div class="num">04</div>
+        <h3>Future-Ready Infrastructure</h3>
+        <p>Sustainable planning built for the next several decades of use.</p>
+      </div>
+      <div class="vision-card">
+        <div class="num">05</div>
+        <h3>Timely Delivery</h3>
+        <p>Disciplined execution and regulatory compliance on every project timeline.</p>
+      </div>
+      <div class="vision-card">
+        <div class="num">06</div>
+        <h3>Transparent Teams</h3>
+        <p>Building strong internal teams and maintaining transparency with every stakeholder.</p>
+      </div>
+    </div>
+
+    <div class="quote">
+      Real estate, done well, is less about the buildings themselves than the <em>environments they create.</em>
+      <span class="quote-by">— Ankit Aggarwal · Managing Director, Devika Group</span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">Ankit <span>Aggarwal</span></div>
+        <div class="footer-info">
+          Managing Director, Devika Group<br>
+          Devika Tower 6, Nehru Place, New Delhi 110019<br>
+          Legacy since 1954 · Leadership since 2007
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#profile">Profile</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#projects">Projects</a>
+        <a href="#corporate">Corporate Record</a>
+        <a href="#vision">Vision</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© Devika Group</span>
+      <span>Profile compiled from provided public-source material · 2026</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const nav = document.getElementById('nav');
+
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 30);
+  });
+
+  const links = document.querySelectorAll('.nav-links a');
+  const sections = [...document.querySelectorAll('main section[id]')];
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        links.forEach(link => link.classList.remove('active'));
+        const active = document.querySelector('.nav-links a[href="#' + entry.target.id + '"]');
+        if(active) active.classList.add('active');
+      }
+    });
+  }, {rootMargin:'-40% 0px -50% 0px', threshold:0});
+
+  sections.forEach(section => observer.observe(section));
+
+  document.getElementById('menu').addEventListener('click', () => {
+    const list = document.querySelector('.nav-links');
+    const visible = getComputedStyle(list).display !== 'none';
+    if(visible){
+      list.style.display = 'none';
+    } else {
+      list.style.display = 'flex';
+      list.style.position = 'absolute';
+      list.style.top = '70px';
+      list.style.left = '20px';
+      list.style.right = '20px';
+      list.style.flexDirection = 'column';
+      list.style.padding = '15px';
+      list.style.background = '#0B1020';
+      list.style.border = '1px solid rgba(255,255,255,.12)';
+    }
+  });
+</script>
+
+</body>
+</html>
